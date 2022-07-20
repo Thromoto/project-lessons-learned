@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Times New Roman, Times, serif;
 
 }
 
@@ -18,7 +18,7 @@ body {
 #licoes_aprendidas , #licoes_a_aprender {
   line-height: 30px;
   font-style: italic;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 .article {
@@ -33,7 +33,19 @@ body {
   border: 2px solid darkblue;
 }
 
+.lado-esquerdo {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.lado-direito {
+  float: right;
+  width: 50%;
+  text-align: center;
+}
+
 #rodape {
   color: brown;
-  font-weight: bold;
+  font-weight: 900;
 }
