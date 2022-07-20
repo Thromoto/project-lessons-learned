@@ -10,3 +10,9 @@ body {
 #minha_foto {
   width: 250px;
 }
+
+.article, .aside {
+    margin: 20px;
+    padding: 30px;
+    border: 2px solid darkblue;
+}
