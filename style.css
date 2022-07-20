@@ -15,13 +15,19 @@ body {
   margin-top: 100px;
 }
 
-#licoes_aprendidas, #licoes_a_aprender {
-    line-height: 30px;
-    font-style: italic;
-    font-weight: bold;
+#licoes_aprendidas , #licoes_a_aprender {
+  line-height: 30px;
+  font-style: italic;
+  font-weight: bold;
 }
 
-.article , .aside {
+.article {
+  margin: 20px;
+  padding: 30px;
+  border: 2px solid darkblue;
+}
+
+.aside {
   margin: 20px;
   padding: 30px;
   border: 2px solid darkblue;
